@@ -209,6 +209,7 @@ body {
 
     .menu, .grid-section, .copy {
         grid-column: 1;
+        max-width: 90%;
     }
 
     .grid-section {
@@ -231,11 +232,20 @@ body {
 
     .menu {
         margin-top: 0px;
-
+        max-width: 100%;
     }
 
     .copy {
+        max-width: 90%;
         margin-bottom: 0px;
+    }
+
+    .mapa {
+        max-width: 90%;
+    }
+
+    .animais-desc {
+        max-width: 90%;
     }
 }
 
